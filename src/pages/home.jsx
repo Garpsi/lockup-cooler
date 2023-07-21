@@ -4,8 +4,6 @@ import VantaHalo from '../components/VantaHalo'
 import Footer from '../components/Footer'
 
 import { CirclesWithBar } from  'react-loader-spinner'
-
-
 export default function Home() {
 
     const [loading, setLoading] = useState(true);
@@ -19,7 +17,7 @@ export default function Home() {
     
 
   return (
-    <div>
+    <div className='bg-[#180118]'>
       <Nav />      
       <div className='flex justify-center align-middle'> 
             <div className="w-[1500px] h-px bg-gray-500"></div>
