@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LogoSVG from '../assets/logo.svg';
+import LogoPNG from '../assets/logo.png';
 
 const Footer = () => {
 
@@ -8,9 +8,9 @@ const Footer = () => {
     <footer class="bg-[#180118] dark:bg-gray-900">
         <div class="mx-auto w-full max-w-[1500px] p-4 py-6 lg:py-8 ">
                 <div class="md:flex md:justify-between">
-                <div class="mb-6 md:mb-0">
+                <div class="hidden mb-6 md:mb-0 md:flex">
                     <a href="https://flowbite.com/" class="flex items-center">
-                        <img src={LogoSVG} class="h-8 mr-3" alt="FlowBite Logo" />
+                        <img src={LogoPNG} class="h-[80px] mr-3" alt="FlowBite Logo" />
                         <span class="self-center text-2xl font-fontFamily font-semibold whitespace-nowrap text-[#e10981] dark:text-white">Uniqloc</span>
                     </a>
                 </div>

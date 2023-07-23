@@ -3,11 +3,12 @@ import { useEffect, useState } from 'react'
 import VantaHalo from '../components/VantaHalo'
 import Footer from '../components/Footer'
 import MainForm from '../components/mainForm'
+import Table from '../components/Table'
 
 import { CirclesWithBar } from  'react-loader-spinner'
 
 
-export default function Home() {
+export default function MyLocks() {
 
     const [loading, setLoading] = useState(true);
 
@@ -28,20 +29,16 @@ export default function Home() {
 
       {/* HERO SECTION */}
 
-      <div className="h-[950px]">
+      <div className="h-[650px]">
 
-      <VantaHalo>
-        {/* Add stuff in here */}
-        {/* <MainForm /> */}
 
-        <div className="grid max-w-screen-2xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-28 lg:grid-cols-12">
-            <div className="mr-auto place-self-center lg:col-span-7">
-              <MainForm />
-                {/* <h1 className="max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">One of the World's Best Digital Assets</h1> */}
-            </div>                
-        </div>
-
-      </VantaHalo>
+        <div className=" max-w-screen-2xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-28 lg:grid-cols-12">
+            <Table />
+        </div>    
+        
+        
+        
+         
 
       </div>
 

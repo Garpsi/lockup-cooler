@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import DOTS from 'vanta/dist/vanta.dots.min'
-import LogoSVG from '../assets/logo1.svg'
+import LogoPNG from '../assets/logo.png'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -51,7 +51,7 @@ const VantaDots = (props) => {
         initial="hidden"
         animate="show"
       >
-        <img className="mx-auto mb-10 mt-10 w-[350px]" src={LogoSVG} alt="GreenChain Logo"  />
+        <img className="mx-auto mb-10 mt-10 w-[275px]" src={LogoPNG} alt="GreenChain Logo"  />
         <div className="text-center">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white dark:text-white mx-auto">Welcome To Uniqloc</h1>
           <p className="max-w-2xl mb-2 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 mx-auto">Uniqloc is a groundbreaking new liquidity locker, setting new standards in the crypto world.</p>

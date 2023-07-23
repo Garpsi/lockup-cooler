@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from './pages/home';
+import MyLocks from './pages/myLocks';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path='/home' element={<Home />} />
+        <Route path='/mylocks' element={<MyLocks />} />
       </Routes>
     </Router>
   </React.StrictMode>
